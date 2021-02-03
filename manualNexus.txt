@@ -1,0 +1,5 @@
+Manuel Nexus:
+
+1.- Para la persona que tendrá el servicio de Nexus se le deberá enviar las siguientes capetas:
+    C:\nexus-2.11.0-02
+	C:\sonatype-work

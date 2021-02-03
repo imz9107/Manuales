@@ -1,0 +1,27 @@
+keytool -importcert -file E:\Certificados\Certificados\GitLab.crt -alias GitLab -keystore "C:\Program Files\Java\jdk1.8.0_131\jre\lib\security\cacerts"
+
+
+keytool -importcert -file E:\Certificados\Certificados\Artifactory.crt -alias Artifactory -keystore "C:\Program Files\Java\jdk1.8.0_131\jre\lib\security\cacerts"
+
+keytool -importcert -file E:\Certificados\Certificados\10.63.32.179.p12 -alias GitLab -keystore "C:\Program Files\Java\jdk1.8.0_131\jre\lib\security\cacerts"
+
+
+keytool -list -v -alias GitLab -keystore "C:\Program Files\Java\jdk1.8.0_131\jre\lib\security\cacerts"
+
+
+
+
+E:\Users\imartinezz\Documents\Repositorios\Core-MX\Manuales\Herramienrtas\Certificados
+
+ 
+keytool -importcert -file E:\Recursos_Microservicios_MX\Fiduciario\Fiduciario.cer -alias Fiduciario -keystore "C:\Program Files\Java\jdk1.8.0_211\jre\lib\security\cacerts"
+keytool -importcert -file E:\Recursos_Microservicios_MX\Fiduciario\certificado_navegador\fidu.cer -alias fiduciario -keystore "C:\Program Files\Java\jdk1.8.0_211\jre\lib\security\cacerts"
+keytool -importcert -file E:\Recursos_Microservicios_MX\Fiduciario\certificado_navegador\v2\fiduCer.cer -alias fiduciario -keystore "C:\Program Files\Java\jdk1.8.0_211\jre\lib\security\cacerts"
+
+
+
+
+Remover
+keytool -delete -alias Fiduciario -keystore "C:\Program Files\Java\jdk1.8.0_211\jre\lib\security\cacerts" -storepass changeit
+
+clave:changeit
